@@ -1,0 +1,30 @@
+.table-of-contents {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.toc-nav {
+  position: sticky;
+  top: 2rem;
+}
+
+.toc-link {
+  display: block;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  color: #666;
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.toc-link:hover {
+  color: #000;
+  border-left-color: #000;
+}
+
+@media (max-width: 1024px) {
+  .table-of-contents {
+    display: none;
+  }
+}
